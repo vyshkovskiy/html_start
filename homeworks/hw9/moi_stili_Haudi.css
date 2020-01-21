@@ -1,0 +1,97 @@
+a {
+	color:green;
+	font-size: 16px;
+}
+
+div {
+	color: blue;
+}
+
+#sylka_1 {
+	color: lime;
+}
+
+#testovay_sylka {
+	font-size: 20px;
+	color: purple;
+}
+
+.human {
+	color: blue;
+}
+
+.animal {
+	
+}
+
+.lion {
+	color: yellow;
+}
+
+.monkey {
+	color: brown;
+}
+
+.fish {
+	color: blue;
+}
+
+.message {
+	color: green;
+	background-color: grey;
+	border-color: solid 1px #323232;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 15px;
+	padding: 35px;
+
+
+}
+
+.success {
+background-color: #19A15F;
+color: #ffffff;
+}
+
+.fail {
+background-color: #65FF4D
+color: #ffffff;
+}
+
+.warning {
+background-color: #D65144;
+color: #ffffff;
+}
+
+.info {
+background-color: #4B8BF5;
+color: #ffffff;
+}
+
+#test_ne_test {
+	transform: scale(0,3);
+	transition: 3s all;
+	background-color: yellow;
+color: white;
+padding: 15px;
+margin: 15px;
+border: 7px solid blue;
+border-radius: 15px;
+opacity: 0,9;
+box-shadow: 10px 10px 7px #000000;
+height: 100px;
+display: block;
+text-align: center;
+font-size: 50px;
+font-weight: 450;
+}
+
+body {
+	background-image: url(images/1.jpg);
+}
+
+#test_ne_test {
+	transform: rotate(60deg) scale(0,3);
+	background-color: red;
+}
