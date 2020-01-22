@@ -50,48 +50,49 @@ div {
 }
 
 .success {
-background-color: #19A15F;
-color: #ffffff;
+	background-color: #19A15F;
+	color: #ffffff;
 }
 
 .fail {
-background-color: #65FF4D
-color: #ffffff;
+	background-color: #65FF4D
+	color: #ffffff;
 }
 
 .warning {
-background-color: #D65144;
-color: #ffffff;
+	background-color: #D65144;
+	color: #ffffff;
 }
 
 .info {
-background-color: #4B8BF5;
-color: #ffffff;
+	background-color: #4B8BF5;
+	color: #ffffff;
 }
 
 #test_ne_test {
-	transform: scale(0,3);
-	transition: 3s all;
+	transform: scale(0.3);
+	transition: 3s transform;
+	transition-timing-function: cubic-bezier(.17,.67,.4,-0.97);
 	background-color: yellow;
-color: white;
-padding: 15px;
-margin: 15px;
-border: 7px solid blue;
-border-radius: 15px;
-opacity: 0,9;
-box-shadow: 10px 10px 7px #000000;
-height: 100px;
-display: block;
-text-align: center;
-font-size: 50px;
-font-weight: 450;
+	color: white;
+	padding: 15px;
+	margin: 15px;
+	border: 7px solid blue;
+	border-radius: 15px;
+	opacity: 0,9;
+	box-shadow: 10px 10px 7px #000000;
+	height: 100px;
+	display: block;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 450;
 }
 
 body {
 	background-image: url(images/1.jpg);
 }
 
-#test_ne_test {
-	transform: rotate(60deg) scale(0,3);
+#test_ne_test:hover {
+	transform: rotate(60deg) scale(0.3);
 	background-color: red;
 }
