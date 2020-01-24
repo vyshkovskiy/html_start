@@ -1,0 +1,21 @@
+a[href="https://somesite.com/"]{
+	color:blue;
+}
+a[href^="https://google.com/"]{
+	color: green;
+}
+a[href^="https://yandex.ru/"]{
+	color:red;
+}
+a[href="https://vk.ru/"]{
+	color:pink;
+}
+input[placeholder="Your firstname"]::placeholder{
+	color:red;
+}
+input[placeholder="Your lastname"]::placeholder {
+	color:green;
+}
+input[placeholder="Your email"]::placeholder {
+	color:blue;
+}
