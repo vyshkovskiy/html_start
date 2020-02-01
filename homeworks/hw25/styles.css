@@ -1,18 +1,24 @@
 a {
+	transition: 1s all;
 	font-size: 15px;
 }
 
 a:hover {
+	background-color: green;
+	color: red;
 	font-size: 20px;
 }
 
 .red-kubik {
+	
+	transition: 0.5s background-color;
 	background-color: red;
 	width: 100px;
 	height: 100px;
 }
 
 .red-kubik:hover {
+	transition: 1s height;
 	width: 150px;
 	height: 150px;
 }
