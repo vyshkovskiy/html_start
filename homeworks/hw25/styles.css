@@ -19,6 +19,7 @@ a:hover {
 
 .red-kubik:hover {
 	transition: 1s height;
+	transition: 1s width;
 	width: 150px;
 	height: 150px;
 }
