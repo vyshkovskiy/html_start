@@ -1,0 +1,8 @@
+body {
+	background-image: url(sobaka.jpg);
+}
+p {
+	background-color: orange;
+	width: 10%;
+	border: 2px solid red;
+}
